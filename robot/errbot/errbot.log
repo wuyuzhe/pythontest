@@ -1,0 +1,248 @@
+2018-10-11 16:07:51,538 INFO     errbot.specific_plugin_manager storage search paths {'d:\\anaconda3\\lib\\site-packages\\errbot\\storage'}
+2018-10-11 16:07:51,541 INFO     errbot.specific_plugin_manager Found those plugings available:
+2018-10-11 16:07:51,541 INFO     errbot.specific_plugin_manager 	    Memory  (d:\anaconda3\lib\site-packages\errbot\storage\memory.py)
+2018-10-11 16:07:51,541 INFO     errbot.specific_plugin_manager 	     Shelf  (d:\anaconda3\lib\site-packages\errbot\storage\shelf.py)
+2018-10-11 16:07:51,541 INFO     errbot.bootstrap          Found Storage plugin: 'Shelf'
+Description: This is the storage plugin for the traditional shelf store for errbot.
+2018-10-11 16:07:51,541 DEBUG    errbot.specific_plugin_manager Refilter the plugins...
+2018-10-11 16:07:51,543 DEBUG    errbot.specific_plugin_manager Load the one remaining...
+2018-10-11 16:07:51,583 DEBUG    errbot.specific_plugin_manager Class to load ShelfStoragePlugin
+2018-10-11 16:07:51,603 DEBUG    errbot.storage            Opening storage 'repomgr'
+2018-10-11 16:07:51,604 DEBUG    errbot.storage.shelf      Open shelf storage F:\pywww\robot\errbot\data\repomgr.db
+2018-10-11 16:07:51,649 DEBUG    errbot.storage            Opening storage 'core'
+2018-10-11 16:07:51,651 DEBUG    errbot.storage.shelf      Open shelf storage F:\pywww\robot\errbot\data\core.db
+2018-10-11 16:07:51,658 INFO     errbot.specific_plugin_manager backends search paths {'d:\\anaconda3\\lib\\site-packages\\errbot\\backends'}
+2018-10-11 16:07:51,667 INFO     errbot.specific_plugin_manager Found those plugings available:
+2018-10-11 16:07:51,668 INFO     errbot.specific_plugin_manager 	   Graphic  (d:\anaconda3\lib\site-packages\errbot\backends\graphic.py)
+2018-10-11 16:07:51,668 INFO     errbot.specific_plugin_manager 	   Hipchat  (d:\anaconda3\lib\site-packages\errbot\backends\hipchat.py)
+2018-10-11 16:07:51,668 INFO     errbot.specific_plugin_manager 	       IRC  (d:\anaconda3\lib\site-packages\errbot\backends\irc.py)
+2018-10-11 16:07:51,668 INFO     errbot.specific_plugin_manager 	      Null  (d:\anaconda3\lib\site-packages\errbot\backends\null.py)
+2018-10-11 16:07:51,668 INFO     errbot.specific_plugin_manager 	     Slack  (d:\anaconda3\lib\site-packages\errbot\backends\slack.py)
+2018-10-11 16:07:51,668 INFO     errbot.specific_plugin_manager 	  Telegram  (d:\anaconda3\lib\site-packages\errbot\backends\telegram_messenger.py)
+2018-10-11 16:07:51,668 INFO     errbot.specific_plugin_manager 	      Test  (d:\anaconda3\lib\site-packages\errbot\backends\test.py)
+2018-10-11 16:07:51,669 INFO     errbot.specific_plugin_manager 	      Text  (d:\anaconda3\lib\site-packages\errbot\backends\text.py)
+2018-10-11 16:07:51,669 INFO     errbot.specific_plugin_manager 	      XMPP  (d:\anaconda3\lib\site-packages\errbot\backends\xmpp.py)
+2018-10-11 16:07:51,669 INFO     errbot.bootstrap          Found Backend plugin: 'Text'
+						Description: This is the text backend for Err.
+2018-10-11 16:07:51,669 DEBUG    errbot.specific_plugin_manager Refilter the plugins...
+2018-10-11 16:07:51,674 DEBUG    errbot.specific_plugin_manager Load the one remaining...
+2018-10-11 16:07:52,166 DEBUG    errbot.specific_plugin_manager Class to load TextBackend
+2018-10-11 16:07:52,166 DEBUG    errbot.core               ErrBot init.
+2018-10-11 16:07:52,166 DEBUG    errbot.backends.base      Backend init.
+2018-10-11 16:07:52,250 DEBUG    errbot.core               created a thread pool of size 10.
+2018-10-11 16:07:52,259 DEBUG    errbot.backends.text      Text Backend Init.
+2018-10-11 16:07:52,259 DEBUG    errbot.backends.text      Bot username set at @errbot.
+2018-10-11 16:07:52,307 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+2018-10-11 16:07:52,309 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+2018-10-11 16:07:52,316 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+2018-10-11 16:07:52,317 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+2018-10-11 16:07:52,318 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.tables.TableExtension".
+2018-10-11 16:07:52,319 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+2018-10-11 16:07:52,320 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+2018-10-11 16:07:52,320 DEBUG    MARKDOWN                  Successfully loaded extension "errbot.rendering.ansiext.AnsiExtension".
+2018-10-11 16:07:52,454 DEBUG    errbot.core               Initializing backend storage
+2018-10-11 16:07:52,454 DEBUG    errbot.storage            Opening storage 'text_backend'
+2018-10-11 16:07:52,454 DEBUG    errbot.storage.shelf      Open shelf storage F:\pywww\robot\errbot\data\text_backend.db
+2018-10-11 16:07:52,456 DEBUG    errbot.plugin_manager     All plugin roots:
+2018-10-11 16:07:52,457 DEBUG    errbot.plugin_manager     -> d:\anaconda3\lib\site-packages\errbot\core_plugins
+2018-10-11 16:07:52,457 DEBUG    errbot.plugin_manager     Add d:\anaconda3\lib\site-packages\errbot\core_plugins to sys.path
+2018-10-11 16:07:52,457 DEBUG    errbot.plugin_manager     -> F:\pywww\robot\errbot\plugins\err-example
+2018-10-11 16:07:52,457 DEBUG    errbot.plugin_manager     Add F:\pywww\robot\errbot\plugins\err-example to sys.path
+2018-10-11 16:07:52,457 DEBUG    errbot.plugin_manager     d:\anaconda3\lib\site-packages\errbot\core_plugins has no requirements.txt file
+2018-10-11 16:07:52,457 DEBUG    errbot.plugin_manager     F:\pywww\robot\errbot\plugins\err-example has no requirements.txt file
+2018-10-11 16:07:52,468 DEBUG    errbot.plugins.ACLs       Logger for plugin initialized...
+2018-10-11 16:07:52,469 DEBUG    errbot.plugins.Backup     Logger for plugin initialized...
+2018-10-11 16:07:52,471 DEBUG    errbot.plugins.ChatRoom   Logger for plugin initialized...
+2018-10-11 16:07:52,472 DEBUG    errbot.plugins.CommandNotFoundFilter Logger for plugin initialized...
+2018-10-11 16:07:52,477 DEBUG    errbot.plugins.Flows      Logger for plugin initialized...
+2018-10-11 16:07:52,480 DEBUG    errbot.plugins.Health     Logger for plugin initialized...
+2018-10-11 16:07:52,481 DEBUG    errbot.plugins.Help       Logger for plugin initialized...
+2018-10-11 16:07:52,483 DEBUG    errbot.plugins.Plugins    Logger for plugin initialized...
+2018-10-11 16:07:52,484 DEBUG    errbot.plugins.TextCmds   Logger for plugin initialized...
+2018-10-11 16:07:52,485 DEBUG    errbot.plugins.Utils      Logger for plugin initialized...
+2018-10-11 16:07:52,636 DEBUG    errbot.plugins.VersionChecker Logger for plugin initialized...
+2018-10-11 16:07:53,342 INFO     errbot                    webhooks:  Flag to bind /echo to                           echo
+2018-10-11 16:07:53,342 DEBUG    errbot.plugins.Webserver  Logger for plugin initialized...
+2018-10-11 16:07:53,345 DEBUG    errbot.plugins.Example    Logger for plugin initialized...
+2018-10-11 16:07:53,346 DEBUG    errbot.bootstrap          Start serving commands from the text backend
+2018-10-11 16:07:53,347 DEBUG    errbot.backends.text      Python readline module is not available
+2018-10-11 16:07:53,347 INFO     errbot.core               Activate internal commands
+2018-10-11 16:07:53,347 INFO     errbot.plugin_manager     Activate bot plugins...
+2018-10-11 16:07:53,347 INFO     errbot.plugin_manager     Activate plugin: ACLs
+2018-10-11 16:07:53,347 DEBUG    errbot.plugin_manager     Plugin ACLs has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-11 16:07:53,348 INFO     errbot.plugin_manager     Activating ACLs with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-11 16:07:53,348 DEBUG    errbot.templating         Templates directory found for this plugin [d:\anaconda3\lib\site-packages\errbot\core_plugins\templates]
+2018-10-11 16:07:53,348 DEBUG    errbot.botplugin          Init storage for ACLs
+2018-10-11 16:07:53,348 DEBUG    errbot.storage            Opening storage 'ACLs'
+2018-10-11 16:07:53,348 DEBUG    errbot.storage.shelf      Open shelf storage F:\pywww\robot\errbot\data\ACLs.db
+2018-10-11 16:07:53,350 DEBUG    errbot.core               Adding command filter: acls
+2018-10-11 16:07:53,350 INFO     errbot.core_plugins.wsview Checking ACLS for webhooks
+2018-10-11 16:07:53,350 INFO     errbot.plugin_manager     Activate plugin: Backup
+2018-10-11 16:07:53,350 DEBUG    errbot.plugin_manager     Plugin Backup has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-11 16:07:53,350 INFO     errbot.plugin_manager     Activating Backup with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-11 16:07:53,351 DEBUG    errbot.templating         Templates directory found for this plugin [d:\anaconda3\lib\site-packages\errbot\core_plugins\templates]
+2018-10-11 16:07:53,351 DEBUG    errbot.botplugin          Init storage for Backup
+2018-10-11 16:07:53,351 DEBUG    errbot.storage            Opening storage 'Backup'
+2018-10-11 16:07:53,351 DEBUG    errbot.storage.shelf      Open shelf storage F:\pywww\robot\errbot\data\Backup.db
+2018-10-11 16:07:53,370 DEBUG    errbot.core               Adding command : backup -> backup
+2018-10-11 16:07:53,370 INFO     errbot.core_plugins.wsview Checking Backup for webhooks
+2018-10-11 16:07:53,371 INFO     errbot.plugin_manager     Activate plugin: ChatRoom
+2018-10-11 16:07:53,371 DEBUG    errbot.plugin_manager     Plugin ChatRoom has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-11 16:07:53,371 INFO     errbot.plugin_manager     Activating ChatRoom with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-11 16:07:53,371 DEBUG    errbot.templating         Templates directory found for this plugin [d:\anaconda3\lib\site-packages\errbot\core_plugins\templates]
+2018-10-11 16:07:53,371 DEBUG    errbot.botplugin          Init storage for ChatRoom
+2018-10-11 16:07:53,371 DEBUG    errbot.storage            Opening storage 'ChatRoom'
+2018-10-11 16:07:53,371 DEBUG    errbot.storage.shelf      Open shelf storage F:\pywww\robot\errbot\data\ChatRoom.db
+2018-10-11 16:07:53,372 DEBUG    errbot.core               Adding command : room_create -> room_create
+2018-10-11 16:07:53,372 DEBUG    errbot.core               Adding command : room_destroy -> room_destroy
+2018-10-11 16:07:53,372 DEBUG    errbot.core               Adding command : room_invite -> room_invite
+2018-10-11 16:07:53,373 DEBUG    errbot.core               Adding command : room_join -> room_join
+2018-10-11 16:07:53,373 DEBUG    errbot.core               Adding command : room_leave -> room_leave
+2018-10-11 16:07:53,373 DEBUG    errbot.core               Adding command : room_list -> room_list
+2018-10-11 16:07:53,373 DEBUG    errbot.core               Adding command : room_occupants -> room_occupants
+2018-10-11 16:07:53,373 DEBUG    errbot.core               Adding command : room_topic -> room_topic
+2018-10-11 16:07:53,373 INFO     errbot.core_plugins.wsview Checking ChatRoom for webhooks
+2018-10-11 16:07:53,373 INFO     errbot.plugin_manager     Activate plugin: CommandNotFoundFilter
+2018-10-11 16:07:53,373 DEBUG    errbot.plugin_manager     Plugin CommandNotFoundFilter has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-11 16:07:53,373 INFO     errbot.plugin_manager     Activating CommandNotFoundFilter with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-11 16:07:53,374 DEBUG    errbot.templating         Templates directory found for this plugin [d:\anaconda3\lib\site-packages\errbot\core_plugins\templates]
+2018-10-11 16:07:53,374 DEBUG    errbot.botplugin          Init storage for CommandNotFoundFilter
+2018-10-11 16:07:53,374 DEBUG    errbot.storage            Opening storage 'CommandNotFoundFilter'
+2018-10-11 16:07:53,374 DEBUG    errbot.storage.shelf      Open shelf storage F:\pywww\robot\errbot\data\CommandNotFoundFilter.db
+2018-10-11 16:07:53,375 DEBUG    errbot.core               Adding command filter: cnf_filter
+2018-10-11 16:07:53,375 INFO     errbot.core_plugins.wsview Checking CommandNotFoundFilter for webhooks
+2018-10-11 16:07:53,375 INFO     errbot.plugin_manager     Activate plugin: Flows
+2018-10-11 16:07:53,376 DEBUG    errbot.plugin_manager     Plugin Flows has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-11 16:07:53,376 INFO     errbot.plugin_manager     Activating Flows with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-11 16:07:53,376 DEBUG    errbot.templating         Templates directory found for this plugin [d:\anaconda3\lib\site-packages\errbot\core_plugins\templates]
+2018-10-11 16:07:53,376 DEBUG    errbot.botplugin          Init storage for Flows
+2018-10-11 16:07:53,376 DEBUG    errbot.storage            Opening storage 'Flows'
+2018-10-11 16:07:53,376 DEBUG    errbot.storage.shelf      Open shelf storage F:\pywww\robot\errbot\data\Flows.db
+2018-10-11 16:07:53,377 DEBUG    errbot.core               Adding command : flows_kill -> flows_kill
+2018-10-11 16:07:53,377 DEBUG    errbot.core               Adding command : flows_list -> flows_list
+2018-10-11 16:07:53,377 DEBUG    errbot.core               Adding command : flows_show -> flows_show
+2018-10-11 16:07:53,377 DEBUG    errbot.core               Adding command : flows_start -> flows_start
+2018-10-11 16:07:53,377 DEBUG    errbot.core               Adding command : flows_status -> flows_status
+2018-10-11 16:07:53,377 DEBUG    errbot.core               Adding command : flows_stop -> flows_stop
+2018-10-11 16:07:53,377 INFO     errbot.core_plugins.wsview Checking Flows for webhooks
+2018-10-11 16:07:53,378 INFO     errbot.plugin_manager     Activate plugin: Health
+2018-10-11 16:07:53,378 DEBUG    errbot.plugin_manager     Plugin Health has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-11 16:07:53,378 INFO     errbot.plugin_manager     Activating Health with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-11 16:07:53,378 DEBUG    errbot.templating         Templates directory found for this plugin [d:\anaconda3\lib\site-packages\errbot\core_plugins\templates]
+2018-10-11 16:07:53,378 DEBUG    errbot.botplugin          Init storage for Health
+2018-10-11 16:07:53,378 DEBUG    errbot.storage            Opening storage 'Health'
+2018-10-11 16:07:53,378 DEBUG    errbot.storage.shelf      Open shelf storage F:\pywww\robot\errbot\data\Health.db
+2018-10-11 16:07:53,380 DEBUG    errbot.core               Adding command : restart -> restart
+2018-10-11 16:07:53,380 DEBUG    errbot.core               Adding command : shutdown -> shutdown
+2018-10-11 16:07:53,380 DEBUG    errbot.core               Adding command : status -> status
+2018-10-11 16:07:53,381 DEBUG    errbot.core               Adding command : status_gc -> status_gc
+2018-10-11 16:07:53,381 DEBUG    errbot.core               Adding command : status_load -> status_load
+2018-10-11 16:07:53,381 DEBUG    errbot.core               Adding command : status_plugins -> status_plugins
+2018-10-11 16:07:53,381 DEBUG    errbot.core               Adding command : uptime -> uptime
+2018-10-11 16:07:53,381 INFO     errbot.core_plugins.wsview Checking Health for webhooks
+2018-10-11 16:07:53,381 INFO     errbot.plugin_manager     Activate plugin: Help
+2018-10-11 16:07:53,382 DEBUG    errbot.plugin_manager     Plugin Help has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-11 16:07:53,382 INFO     errbot.plugin_manager     Activating Help with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-11 16:07:53,382 DEBUG    errbot.templating         Templates directory found for this plugin [d:\anaconda3\lib\site-packages\errbot\core_plugins\templates]
+2018-10-11 16:07:53,382 DEBUG    errbot.botplugin          Init storage for Help
+2018-10-11 16:07:53,382 DEBUG    errbot.storage            Opening storage 'Help'
+2018-10-11 16:07:53,382 DEBUG    errbot.storage.shelf      Open shelf storage F:\pywww\robot\errbot\data\Help.db
+2018-10-11 16:07:53,383 DEBUG    errbot.core               Adding command : about -> about
+2018-10-11 16:07:53,383 DEBUG    errbot.core               Adding command : apropos -> apropos
+2018-10-11 16:07:53,383 DEBUG    errbot.core               Adding command : help -> help
+2018-10-11 16:07:53,384 INFO     errbot.core_plugins.wsview Checking Help for webhooks
+2018-10-11 16:07:53,384 INFO     errbot.plugin_manager     Activate plugin: Plugins
+2018-10-11 16:07:53,384 DEBUG    errbot.plugin_manager     Plugin Plugins has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-11 16:07:53,384 INFO     errbot.plugin_manager     Activating Plugins with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-11 16:07:53,384 DEBUG    errbot.templating         Templates directory found for this plugin [d:\anaconda3\lib\site-packages\errbot\core_plugins\templates]
+2018-10-11 16:07:53,385 DEBUG    errbot.botplugin          Init storage for Plugins
+2018-10-11 16:07:53,385 DEBUG    errbot.storage            Opening storage 'Plugins'
+2018-10-11 16:07:53,385 DEBUG    errbot.storage.shelf      Open shelf storage F:\pywww\robot\errbot\data\Plugins.db
+2018-10-11 16:07:53,386 DEBUG    errbot.core               Adding command : plugin_activate -> plugin_activate
+2018-10-11 16:07:53,386 DEBUG    errbot.core               Adding command : plugin_blacklist -> plugin_blacklist
+2018-10-11 16:07:53,386 DEBUG    errbot.core               Adding command : plugin_config -> plugin_config
+2018-10-11 16:07:53,386 DEBUG    errbot.core               Adding command : plugin_deactivate -> plugin_deactivate
+2018-10-11 16:07:53,386 DEBUG    errbot.core               Adding command : plugin_reload -> plugin_reload
+2018-10-11 16:07:53,386 DEBUG    errbot.core               Adding command : plugin_unblacklist -> plugin_unblacklist
+2018-10-11 16:07:53,386 DEBUG    errbot.core               Adding command : repos -> repos
+2018-10-11 16:07:53,386 DEBUG    errbot.core               Adding command : repos_install -> repos_install
+2018-10-11 16:07:53,386 DEBUG    errbot.core               Adding command : repos_search -> repos_search
+2018-10-11 16:07:53,386 DEBUG    errbot.core               Adding command : repos_uninstall -> repos_uninstall
+2018-10-11 16:07:53,386 DEBUG    errbot.core               Adding command : repos_update -> repos_update
+2018-10-11 16:07:53,386 INFO     errbot.core_plugins.wsview Checking Plugins for webhooks
+2018-10-11 16:07:53,387 INFO     errbot.plugin_manager     Activate plugin: TextCmds
+2018-10-11 16:07:53,387 INFO     errbot.plugin_manager     Plugin TextCmds has no section [Python]. Assuming this plugin is running only under python 3.
+2018-10-11 16:07:53,387 DEBUG    errbot.plugin_manager     Plugin TextCmds has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-11 16:07:53,387 INFO     errbot.plugin_manager     Activating TextCmds with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-11 16:07:53,387 DEBUG    errbot.templating         Templates directory found for this plugin [d:\anaconda3\lib\site-packages\errbot\core_plugins\templates]
+2018-10-11 16:07:53,387 DEBUG    errbot.botplugin          Init storage for TextCmds
+2018-10-11 16:07:53,387 DEBUG    errbot.storage            Opening storage 'TextCmds'
+2018-10-11 16:07:53,387 DEBUG    errbot.storage.shelf      Open shelf storage F:\pywww\robot\errbot\data\TextCmds.db
+2018-10-11 16:07:53,388 DEBUG    errbot.core               Adding command : asadmin -> asadmin
+2018-10-11 16:07:53,388 DEBUG    errbot.core               Adding command : asuser -> asuser
+2018-10-11 16:07:53,389 DEBUG    errbot.core               Adding command : inperson -> inperson
+2018-10-11 16:07:53,389 DEBUG    errbot.core               Adding command : inroom -> inroom
+2018-10-11 16:07:53,389 DEBUG    errbot.core               Adding command : ml -> ml
+2018-10-11 16:07:53,392 INFO     errbot.core_plugins.wsview Checking TextModeCmds for webhooks
+2018-10-11 16:07:53,392 INFO     errbot.plugin_manager     Activate plugin: Utils
+2018-10-11 16:07:53,392 DEBUG    errbot.plugin_manager     Plugin Utils has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-11 16:07:53,392 INFO     errbot.plugin_manager     Activating Utils with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-11 16:07:53,393 DEBUG    errbot.templating         Templates directory found for this plugin [d:\anaconda3\lib\site-packages\errbot\core_plugins\templates]
+2018-10-11 16:07:53,393 DEBUG    errbot.botplugin          Init storage for Utils
+2018-10-11 16:07:53,393 DEBUG    errbot.storage            Opening storage 'Utils'
+2018-10-11 16:07:53,393 DEBUG    errbot.storage.shelf      Open shelf storage F:\pywww\robot\errbot\data\Utils.db
+2018-10-11 16:07:53,394 DEBUG    errbot.core               Adding command : echo -> echo
+2018-10-11 16:07:53,394 DEBUG    errbot.core               Adding command : history -> history
+2018-10-11 16:07:53,394 DEBUG    errbot.core               Adding command : log_tail -> log_tail
+2018-10-11 16:07:53,394 DEBUG    errbot.core               Adding command : render_test -> render_test
+2018-10-11 16:07:53,394 DEBUG    errbot.core               Adding command : whoami -> whoami
+2018-10-11 16:07:53,394 INFO     errbot.core_plugins.wsview Checking Utils for webhooks
+2018-10-11 16:07:53,394 INFO     errbot.plugin_manager     Activate plugin: VersionChecker
+2018-10-11 16:07:53,395 DEBUG    errbot.plugin_manager     Plugin VersionChecker has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-11 16:07:53,395 INFO     errbot.plugin_manager     Activating VersionChecker with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-11 16:07:53,395 DEBUG    errbot.templating         Templates directory found for this plugin [d:\anaconda3\lib\site-packages\errbot\core_plugins\templates]
+2018-10-11 16:07:53,395 INFO     errbot.plugins.VersionChecker Skip version checking under text mode
+2018-10-11 16:07:53,395 INFO     errbot.core_plugins.wsview Checking VersionChecker for webhooks
+2018-10-11 16:07:53,395 INFO     errbot.plugin_manager     Activate plugin: Webserver
+2018-10-11 16:07:53,396 DEBUG    errbot.plugin_manager     Plugin Webserver has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-11 16:07:53,396 INFO     errbot.plugin_manager     Activating Webserver with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-11 16:07:53,396 DEBUG    errbot.templating         Templates directory found for this plugin [d:\anaconda3\lib\site-packages\errbot\core_plugins\templates]
+2018-10-11 16:07:53,396 INFO     errbot.plugins.Webserver  Webserver is not configured. Forbid activation
+2018-10-11 16:07:53,396 INFO     errbot.core_plugins.wsview Checking Webserver for webhooks
+2018-10-11 16:07:53,397 INFO     errbot.core_plugins.wsview Webhook routing echo
+2018-10-11 16:07:53,397 INFO     errbot.plugin_manager     Activate plugin: Example
+2018-10-11 16:07:53,397 DEBUG    errbot.plugin_manager     Plugin Example has no section [Errbot]. Assuming this plugin is running on any Errbot version.
+2018-10-11 16:07:53,397 INFO     errbot.plugin_manager     Activating Example with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-10-11 16:07:53,397 DEBUG    errbot.templating         No templates directory found for this plugin [Looking for F:\pywww\robot\errbot\plugins\err-example\templates]
+2018-10-11 16:07:53,397 DEBUG    errbot.botplugin          Init storage for Example
+2018-10-11 16:07:53,398 DEBUG    errbot.storage            Opening storage 'Example'
+2018-10-11 16:07:53,398 DEBUG    errbot.storage.shelf      Open shelf storage F:\pywww\robot\errbot\data\Example.db
+2018-10-11 16:07:53,399 DEBUG    errbot.core               Adding command : tryme -> tryme
+2018-10-11 16:07:53,399 INFO     errbot.core_plugins.wsview Checking Example for webhooks
+2018-10-11 16:07:53,399 DEBUG    errbot.plugin_manager     Activate flow plugins ...
+2018-10-11 16:07:53,399 INFO     errbot.core               
+2018-10-11 16:07:53,399 INFO     errbot.core               Notifying connection to all the plugins...
+2018-10-11 16:07:53,399 DEBUG    errbot.core               Trigger callback_connect on ACLS
+2018-10-11 16:07:53,399 DEBUG    errbot.core               Trigger callback_connect on Backup
+2018-10-11 16:07:53,399 DEBUG    errbot.core               Trigger callback_connect on ChatRoom
+2018-10-11 16:07:53,399 INFO     errbot.plugins.ChatRoom   Callback_connect
+2018-10-11 16:07:53,399 DEBUG    errbot.core               Trigger callback_connect on CommandNotFoundFilter
+2018-10-11 16:07:53,399 DEBUG    errbot.core               Trigger callback_connect on Flows
+2018-10-11 16:07:53,400 DEBUG    errbot.core               Trigger callback_connect on Health
+2018-10-11 16:07:53,400 DEBUG    errbot.core               Trigger callback_connect on Help
+2018-10-11 16:07:53,400 DEBUG    errbot.core               Trigger callback_connect on Plugins
+2018-10-11 16:07:53,400 DEBUG    errbot.core               Trigger callback_connect on TextModeCmds
+2018-10-11 16:07:53,400 DEBUG    errbot.core               Trigger callback_connect on Utils
+2018-10-11 16:07:53,400 DEBUG    errbot.core               Trigger callback_connect on Example
+2018-10-11 16:07:53,400 INFO     errbot.core               Plugin activation done.
+2018-10-11 16:07:53,400 DEBUG    errbot.core               Triggering callback_presence on ACLs
+2018-10-11 16:07:53,400 DEBUG    errbot.core               Triggering callback_presence on Backup
+2018-10-11 16:07:53,400 DEBUG    errbot.core               Triggering callback_presence on ChatRoom
+2018-10-11 16:07:53,400 DEBUG    errbot.core               Triggering callback_presence on CommandNotFoundFilter
+2018-10-11 16:07:53,400 DEBUG    errbot.core               Triggering callback_presence on Flows
+2018-10-11 16:07:53,400 DEBUG    errbot.core               Triggering callback_presence on Health
+2018-10-11 16:07:53,400 DEBUG    errbot.core               Triggering callback_presence on Help
+2018-10-11 16:07:53,400 DEBUG    errbot.core               Triggering callback_presence on Plugins
+2018-10-11 16:07:53,400 DEBUG    errbot.core               Triggering callback_presence on TextCmds
+2018-10-11 16:07:53,401 DEBUG    errbot.core               Triggering callback_presence on Utils
+2018-10-11 16:07:53,401 DEBUG    errbot.core               Triggering callback_presence on Example

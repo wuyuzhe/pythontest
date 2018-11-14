@@ -1,0 +1,10 @@
+机器学习：scipy、nump、sklearn、spacy(nlp)
+富文本编辑器：nkeditor
+分词：scaw、hanlp(java)
+全文检索：Lucene
+rpc项目：Tars、motan、dubbo、jboot、jfinal
+分布式：Hbase、docker、hadoop、kylin、bigflow
+基于密度算法：dbscan、optics、denclue
+缓存：bigcache
+数据库：scylla(nosql)、alisql
+ip地址定位库：ip2Region
