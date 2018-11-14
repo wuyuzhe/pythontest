@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/PyAIML" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/QA-deep-learning" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/py3Aiml_Chinese" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pythontest" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/robot/chatbot-retrieval" vcs="Git" />
   </component>
 </project>
