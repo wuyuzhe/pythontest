@@ -8,3 +8,26 @@ rpc项目：Tars、motan、dubbo、jboot、jfinal
 缓存：bigcache
 数据库：scylla(nosql)、alisql
 ip地址定位库：ip2Region
+
+
+收敛加速
+Stochastic Gradient Descent SGD
+
+传统W计算：W += -learning rate *dx
+###################
+Momentum
+m = b1*m -learning_rate*dx
+W += m
+########################
+#AdaGrad
+v += dx^2
+w += -Learningrate*dx/sqrt(v)
+######################
+RMSProp
+v = b1*v +(1-b1)*dx^2
+W += -learning_rate*dx/sqrt(v)
+#########################
+Adam
+m = b1*m +(1-b1)*dx
+v = b2*v+(1-b2)*dx^2
+W += -learningrate*m/sqrt(v)
