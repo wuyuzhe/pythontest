@@ -1,0 +1,9 @@
+np.mat()  生成矩阵
+np.linalg.inv() 矩阵求逆
+np.linalg.det() 矩阵求行列式
+np.linalg.norm 	求范数
+np.linalg.solve)() 求解线性方程
+np.linalg.eigvals(C) 求特征值
+np.linalg.eig(C)  求特征值和特征向量
+np.linalg.svd(D,full_matrices = False)  SVD分解
+np.linalg.pinv(E) 广义逆矩阵

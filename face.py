@@ -7,7 +7,11 @@ from subprocess import call
 from time import time
 
 FREQ = 5
+<<<<<<< HEAD
+FACE_DETECTOR = dblib.get_frontal_face_detector()
+=======
 FACE_DETECTOR = dlib.get_frontal_face_detector()
+>>>>>>> cf2f463e0d48f2a55c32beff341ca1b4b5c9e5ac
 
 def notify(text,tilte):
 	cmd = r'display notification "%s" with tilte "%s"'%(text,title)

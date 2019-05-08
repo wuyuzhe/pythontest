@@ -1,0 +1,36 @@
+https://blog.csdn.net/zj360202/article/details/70260266
+
+tf.placeholder 函数可以理解为形参，用于定义过程，在执行的时候再赋具体的值
+---------------------------------------------------------------
+tf.nn.conv2d  卷积
+tf.nn.conv2d(input, filter, strides, padding, use_cudnn_on_gpu=None, name=None)
+input：指需要做卷积的输入图像
+filter：相当于CNN中的卷积核
+strides：卷积时在图像每一维的步长，这是一个一维的向量，长度4
+padding：string类型的量，只能是"SAME","VALID"其中之一，这个值决定了不同的卷积方式
+use_cudnn_on_gpu:bool类型，是否使用cudnn加速
+
+input = tf.Variable(tf.random_normal([1,3,3,5]))
+filter = tf.Variable(tf.random_normal([1,1,5,1]))
+ 
+op = tf.nn.conv2d(input, filter, strides=[1, 1, 1, 1], padding='VALID')
+-----------------------------------------------------------
+tf.nn.max_pool 池化操作
+-------------------------------------------------------
+tf.nn.relu
+tf.nn.relu(features, name=None)  = max(0,features)
+一般features会是(卷积核,图像)的卷积后加上bias
+tf.nn.relu(tf.nn.conv2d(x_image, w_conv1, strides=[1, 1, 1, 1], padding='SAME') + b_conv1)
+
+--------------------------------------------------
+tf.reshape		数据重定形状函数
+------------------------------------------
+tf.argmax  		对矩阵按行或列计算最大值
+---------------------------------------------
+tf.nn.dropout     防止过拟合，将训练输出按一定规则进行变换
+-----------------------------------------------
+tf.train.AdamOptimizer     adam优化算法，寻找全局最优点的优化算法，引入了二次方梯度校正
+----------------------------------------------
+tf.nn.softmax_cross_entropy_with_logits
+----------------------------------------------
+tf.dynamic_partition  拆分数组

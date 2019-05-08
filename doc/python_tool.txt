@@ -1,0 +1,43 @@
+机器学习：scipy、nump、sklearn、spacy(nlp)
+富文本编辑器：nkeditor
+分词：scaw、hanlp(java)
+全文检索：Lucene
+rpc项目：Tars、motan、dubbo、jboot、jfinal
+分布式：Hbase、docker、hadoop、kylin、bigflow
+基于密度算法：dbscan、optics、denclue
+缓存：bigcache
+数据库：scylla(nosql)、alisql
+ip地址定位库：ip2Region
+
+
+收敛加速
+Stochastic Gradient Descent SGD
+
+传统W计算：W += -learning rate *dx
+
+###################
+Momentum
+m = b1*m -learning_rate*dx
+W += m
+########################
+#AdaGrad
+v += dx^2
+w += -Learningrate*dx/sqrt(v)
+######################
+RMSProp
+v = b1*v +(1-b1)*dx^2
+W += -learning_rate*dx/sqrt(v)
+#########################
+Adam
+m = b1*m +(1-b1)*dx
+v = b2*v+(1-b2)*dx^2
+W += -learningrate*m/sqrt(v)
+
+#将文本转成神经网络可识别的的张量
+tokenizer = keras.preprocessing.text.Tokenizer(nb_words=MAX_NB_WORDS)
+tokenizer.fit_on_texts(texts)
+sequences = tokenizer.texts_to_sequences(texts)
+word_index = tokenizer.word_index
+data = keras.preprocessing.pad_sequences(sequences,maxlen=MAX_SEQUENCE_LENGTH)
+
+
